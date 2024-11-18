@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Advisor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Crypto Advisor</h1>
+    
+    <!-- Tabla para mostrar las criptomonedas -->
+    <table>
+        <thead>
+            <tr>
+                <th>Criptomoneda</th>
+                <th>Precio Actual (USD)</th>
+                <th>24h Cambio (%)</th>
+                <th>Volumen 24h (USD)</th>
+                <th>Suministro Circulante</th>
+                <th>Proyección 5 días</th>
+                <th>Recomendación</th>
+                <th>Recomendación de Compra</th>
+            </tr>
+        </thead>
+        <tbody id="crypto-table-body">
+            <!-- Los datos de las criptomonedas se agregarán aquí con JavaScript -->
+        </tbody>
+    </table>
+    
+    <!-- Gráfico de precios -->
+    <canvas id="priceChart" width="400" height="200"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
